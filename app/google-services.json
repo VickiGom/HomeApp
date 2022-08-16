@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "6724148765",
+    "firebase_url": "https://arduinosensores-5fb89-default-rtdb.firebaseio.com",
+    "project_id": "arduinosensores-5fb89",
+    "storage_bucket": "arduinosensores-5fb89.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:6724148765:android:43ebb4b90c0b46654c30f4",
+        "android_client_info": {
+          "package_name": "com.example.homeapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "6724148765-4vbt83vs3vhddj00l3rs9bcd7fitd0q0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyArfdwjS17SSIVEo2DeXvdPn6vtfZbKmGU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "6724148765-4vbt83vs3vhddj00l3rs9bcd7fitd0q0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
