@@ -1,3 +1,7 @@
 <resources>
-    <string name="app_name">HomeApp</string>
+    <string name="app_name"></string>
+    <string name="humedad">Humedad</string>
+    <string name="distancia">Distancia</string>
+    <string name="temperatura">Temperatura</string>
+
 </resources>

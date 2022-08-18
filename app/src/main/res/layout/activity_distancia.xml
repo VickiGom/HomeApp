@@ -4,17 +4,53 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:id="@+id/distanciaLy"
+    android:background="@drawable/gradient_animation"
     tools:context=".DistanciaActivity">
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical">
         <TextView
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="hola"
-            android:id="@+id/TexDistancia">
+            android:font="@color/black"
+            android:gravity="center"
+            android:text="Distancia"
+            android:textColor="@color/black"
+            android:textSize="40dp"
+            android:translationX="125dp"></TextView>
+
+        <ImageView
+            android:layout_width="365dp"
+            android:layout_height="275dp"
+            app:srcCompat="@mipmap/puerta"
+            android:translationX="25dp">
+
+        </ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Esperando.."
+            android:id="@+id/TexDistancia"
+            android:textSize="30dp"
+            android:textColor="@color/red"
+            android:translationX="100dp"
+            android:translationY="30dp">
         </TextView>
+        <Button
+            android:layout_width="340dp"
+            android:layout_height="60dp"
+            android:translationX="35dp"
+            android:id="@+id/btnSalir"
+            android:text="Salir"
+            android:backgroundTint="@color/Boton"
+            android:textColor="@color/white"
+            android:translationY="115dp"
+            android:background="@drawable/boton"
+            >
+        </Button>
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

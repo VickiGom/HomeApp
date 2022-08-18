@@ -1,34 +1,72 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/root_layout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:background="@drawable/gradient_animation">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical">
-        <Button
-            android:layout_width="match_parent"
+
+        <TextView
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:font="@color/black"
+            android:gravity="center"
+            android:text="HomeApp"
+            android:textColor="@color/black"
+            android:textSize="40dp"
+            android:translationX="110dp"></TextView>
+
+        <ImageView
+            android:layout_width="229dp"
+            android:layout_height="237dp"
+            android:translationX="90dp"
+            android:translationY="30dp"
+            app:srcCompat="@mipmap/casa">
+
+        </ImageView>
+
+        <Button
+            android:layout_width="340dp"
+            android:layout_height="60dp"
+            android:translationX="35dp"
             android:id="@+id/btnTemperatura"
-            android:text="Temperatura"
+            android:text="@string/temperatura"
+            android:backgroundTint="@color/Boton"
+            android:textColor="@color/white"
+            android:translationY="100dp"
+            android:background="@drawable/boton"
             >
         </Button>
         <Button
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_width="340dp"
+            android:layout_height="60dp"
+            android:translationX="35dp"
             android:id="@+id/btnHumedad"
-            android:text="Humedad"
+            android:text="@string/humedad"
+            android:backgroundTint="@color/Boton"
+            android:textColor="@color/white"
+            android:translationY="120dp"
+            android:background="@drawable/boton"
             >
         </Button>
         <Button
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_width="340dp"
+            android:layout_height="60dp"
+            android:translationX="35dp"
             android:id="@+id/btnDistancia"
-            android:text="Distancia"
+            android:text="@string/distancia"
+            android:backgroundTint="@color/Boton"
+            android:textColor="@color/white"
+            android:translationY="135dp"
+            android:background="@drawable/boton"
             >
         </Button>
 
